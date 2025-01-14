@@ -1,11 +1,7 @@
 import { gsap } from "gsap";
 
-//? - ===========  ELEMENTS  =========== -//
-//? - ===========  ELEMENTS  =========== -//
 const items = document.querySelectorAll('.item');
 
-//? - ===========  callbacks  =========== -//
-//? - ===========  callbacks  =========== -//
 gsap.to('.item3', { delay:1, duration: 3, scale: 0,
 
     onStart: function() {

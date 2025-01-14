@@ -1,12 +1,7 @@
 import { gsap } from "gsap";
 
-//? - ===========  ELEMENTS  =========== -//
-//? - ===========  ELEMENTS  =========== -//
 const items = document.querySelectorAll('.item');
 
-
-//? - ===========  wrap()  =========== -//
-//? - ===========  wrap()  =========== -//
 gsap.from(items, {
     duration: 4,
     ease: 'power3.out',
@@ -17,5 +12,5 @@ gsap.to(items, {
     duration: 4,
     ease: 'power3.out',
     stagger: 0.1,
-    backgroundColor: gsap.utils.wrap(['yellow', 'red', 'blue', 'green']),
+    backgroundColor: gsap.utils.wrap(['pink']),
 })

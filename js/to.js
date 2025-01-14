@@ -6,4 +6,4 @@ const items = document.querySelectorAll('.item');
 
 //? - ===========  TO  =========== -//
 //? - ===========  TO  =========== -//
-gsap.to('.item3', { duration: 3, opacity: 0.5, x: 100, y: 50 })
+gsap.to('.item3', { duration: 3, opacity: 0.5, x:100, y: 50 })

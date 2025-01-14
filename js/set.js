@@ -1,10 +1,6 @@
 import { gsap } from "gsap";
 
-//? - ===========  ELEMENTS  =========== -//
-//? - ===========  ELEMENTS  =========== -//
-const items = document.querySelectorAll('.item');
+const item3 = document.querySelector(".item3");
+const item4 = document.querySelector(".item4");
 
-
-//? - ===========  SET  =========== -//
-//? - ===========  SET  =========== -//
-gsap.set('.item3', { opacity: 0.5, backgroundColor: 'red', x: '15vw', y: '20vh' })
+gsap.set([item3, item4], { opacity: 0.5, x: 100, y:-100, backgroundColor: "red" });
